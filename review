@@ -1,0 +1,69 @@
+<html>
+<link rel="style" href="style.css">
+<head>
+<title>Register</title>
+</head>
+<center>
+<font color=green
+<body style="background-color: #d6dece;">
+
+<h1>Please leave us some feedback.</h1>
+
+<ul>
+<li><a href = "Home.html">Home</a></li>
+<li><a href = "About.html">About</a></li>
+<li><a href = "Contact.html">Contact</a></li>
+<li><a href = "Gallery.html">Gallery</a></li>
+<li><a href = "Reviews.html">Reviews</a></li>
+</ul>
+
+<style>
+li, a {
+float:Left;
+padding: 15px 50px;
+background-color:green;
+color:white;
+}
+
+a {
+text-decoration:none;
+}
+
+ul {
+List-style-type:none;
+}
+
+li a:hover{
+color:Grey
+}
+
+</style>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Mobile number: 0827775546</p>
+<br>
+<p>Email address: Grocery Go@gmail.com</p>
+<br>
+<p>Fax Machine number: 0828936725/Grocery Go.com</p>
+<br>
+<p>Leave a review on our website and have a good day.</p>
+<br>
+</font>
+<div>
+<input class="w3-input w3-border" type="text" placeholder="Name" required="" name="Name">
+<input class="w3-input w3-border" type="text" placeholder="Surname" required="" name="Surname">
+<input class="w3-input w3-border" type="text" placeholder="Mobile number" required="" name="Mobile number">
+</div>
+<br>
+<br>
+<h2></h2>
+<button type="button" onclick="alert('Your query has been submitted!')">Submit</button>
+</p>
+<center>
+</body>
+</html>
+
+
