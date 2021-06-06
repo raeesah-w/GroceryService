@@ -1,0 +1,65 @@
+<html>
+<link rel="style" href="style.css">
+<head>
+<title>About Us</title>
+</head>
+<center>
+<font color=green
+<body style="background-color: #d6dece;">
+
+<h1>About Us</h1>
+<ul>
+<li><a href = "Home.html">Home</a></li>
+<li><a href = "About.html">About</a></li>
+<li><a href = "Contact.html">Contact</a></li>
+<li><a href = "Gallery.html">Gallery</a></li>
+<li><a href = "Reviews.html">Reviews</a></li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p>Grocery Go...We are a company that delivers your orders straight to your doorstep. We can be contacted via a social platform or the best way is via our app. We find the best and cheapest foods for you so that you would not have to go from shop to shop finding the cheapest items. We take all the hard work off your hands.</p>
+<p>We are a delivering company situated across South Africa. We have been inspired to start a door to door delivery services for all your grocery wants. Grocery Go does all your shopping for you right across South Africa, no matter where the grocery shop is, we would be able to get it as we have a big range of suppliers. No need for you to go into the store or to stand in long lines,we got you covered just for a small fee to cover our petrol cost. We would have your groceries delivered to you within the same day.</p>
+<br>
+<img src="Images/OIP.jfif" width='300' height='200'; allign='left';></img>
+<p>We have a website called Grocery Go where you could register for an account, and start shopping within seconds. We also spread right across South Africa, so need to worry about being a province away, as we spread abroad.</p>
+<br>
+<br>
+
+<br>
+<a href="Reviews.html">To review our services, click this button.</a>
+<br>
+<style>
+li, a {
+float:Left;
+padding: 15px 50px;
+background-color:green;
+color:white;
+}
+
+a {
+text-decoration:none;
+}
+
+ul {
+List-style-type:none;
+
+}
+
+li a:hover{
+color:Grey
+}
+
+
+</style>
+
+
+</font>
+</center>
+
+</body>
+</html>
