@@ -1,0 +1,174 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+<title>FAQs</title>
+</head>
+<body style="background-color: #d6dece; background-size: 100% 100%; background-repeat:no-repeat;">
+<center>
+<font color=white>
+<font size=width='300px' height='200px';>
+<link rel="shortcut icon" type="image/x-icon" href="GroceryGo_Logo.png"/>
+<br>
+<h1>GROCERY GO!</h1>
+<br>
+</center>
+<ul>
+<li><a href = "Home.html">Home</a></li>
+<li><a href = "Services.html">Services</a></li>
+<li><a href = "FAQs.html">FAQs</a></li>
+<li><a href = "Delivery.html">Delivery</a></li>
+<li><a href = "Shopping.html">Shopping List</a></li>
+<li><a href = "contact.html">Contact us</a></li>
+</ul>
+<br>
+<br>
+<br>	
+<center>
+<font color=white>
+<font size=width='300px' height='200px';>
+<br>
+<h1>Frequently Asked Questions</h1>
+<br>
+</center>
+
+<button class="accordion">Do you provide grocery shopping and delivery in my area?</button>
+<div class="panel">
+  <p>The Grocery Go delivery area is continuously expanding. To determine if Grocery Go delivers to your area, please visit Grocery Delivery Areas page for further information.</p>
+</div>
+
+<button class="accordion">Can i trust﻿ grocery go to pick my meat, produce and other fresh foods?</button>
+<div class="panel">
+  <p>Absolutely! Our shoppers will shop for your meats, produce and other fresh foods just as if they were shopping for themselves, including checking for the latest expiration date. <br>If we don't feel that it's good enough for us, why would it be good enough for you? We pride ourselves on customer satisfaction and we believe that if you are not a satisfied client then you wont be a repeat client. </p>
+</div>
+
+<button class="accordion">Why doesn't grocery go provide a list of products available with pictures and prices?</button>
+<div class="panel">
+  <p>We do not list product categories, pictures and prices is because we are not an online grocery store and we do not sell groceries. <br><br>With thousands of grocery stores that carry millions of different products, it would be virtually impossible for us to list every product that every store in the country carries, along with their individual prices. <br><br>We are a shopping service for you, our client. We go shop at the local grocery store (and other stores)  of your choice and you pay the exact same price as the store advertises. When you use WeGoShop we will provide you with the grocery store receipt and you will see that we do not mark-up the price of your groceries.<br><br>We believe in giving you the freedom of choice to choose the actual products and brands that you want as well as the particular store that they come from, paying the same prices that you are used to. So, just tell us exactly what you want. If your shopper has a question, they'll let you know.</p>
+</div>
+
+<button class="accordion">How specific do i have to be on my grocery list?</button>
+<div class="panel">
+  <p>Because we want you to be satisfied with your experience of using WeGoShop, we ask that you be as specific as possible with your grocery list. With millions of individual grocery items available, product description, when necessary, is important. We want to be sure that we get it right for you for the first time and every time!</p>
+</div>
+
+<button class="accordion">Will you substitute items that might not be available?</button>
+<div class="panel">
+  <p>The service fee is dependent upon the independently owned and operated WeGoShop.com location that services your area. Please visit the Grocery Delivery Areas page and navigate to your delivery city for further information. You may learn that our service fees differ from our competitors and there are several reasons for this:
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.	We are a personal shopping service provider, we do not profit from the sale of groceries. 
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.	Unlike most other grocery delivery services, we are able to take telephone orders. 
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.	When we are shopping for your groceries, your order is getting the absolute attention that it deserves because typically we do not shop for your order at the same time as someone else's grocery order. 
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.	WeGoShop.com provides grocery shopping and delivery from your favorite local grocery store, you get the brands and pay the prices that you are already used to. 
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.	We will shop from more than one grocery store for you.</p>
+</div>
+
+<button class="accordion">What are your shop and delivery hours?</button>
+<div class="panel">
+  <p>Orders placed Mon-Sat before 7:30PM & Sunday before 5:30PM receive same-day delivery. Please visit the Grocery Delivery Areas page and navigate to your delivery area for further information.</p>
+</div>
+
+<button class="accordion">Can i change or cancel my delivery time after i have placed my order?</button>
+<div class="panel">
+  <p>In most cases yes. You should call at least 3 hours before the scheduled delivery time. Sending an email may not be sufficient enough to stop your grocery order from being processed.</p>
+</div>
+
+<button class="accordion">How do i pay for my grocery shopping and delivery order?</button>
+<div class="panel">
+  <p>Grocery Go accepts both card and cash-on-delivery services.</p>
+</div>
+
+<button class="accordion">Can i tip my personal grocery shopper?</button>
+<div class="panel">
+  <p>Please do! If you are happy and satisfied with the service that was provided to you, a tip is always welcome and appreciated, thank you!</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<style>
+li, a {
+float:left;
+padding: 10px 40px;
+background-color:#164017;
+color:#d6dece;
+}
+
+a {
+text-decoration:none;
+}
+
+ul {
+list-style-type:none;
+}
+
+li a:hover{
+color: white;
+}
+
+.accordion {
+  background-color: #164017;
+  color: #d6decc;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  font-weight: bold !important;
+  box-sizing: border-box;
+  transition: 250ms ease;
+  cursor: pointer;
+  min-height: 45px;
+
+
+}
+
+
+.active, .accordion:hover {
+  background-color: #8aa174; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #8aa174;
+  overflow: hidden;
+}
+
+</style>
+</body>
+<footer>
+	
+</footer>
+</html>
+
+
+
